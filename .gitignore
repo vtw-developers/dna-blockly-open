@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+jspm_packages/
 /.pnp
 .pnp.js
 
@@ -11,13 +12,23 @@
 # production
 /build
 
+# Output of 'npm pack'
+*.tgz
+*.user
+
 # misc
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+build
+.env
+swa-cli.config.json
+/.idea/
+/.vscode/
+/.github/
 
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+lerna-debug.log*
