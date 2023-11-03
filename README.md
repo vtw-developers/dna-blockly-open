@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# BlocklyCode : Blocky-based JavaScript and Python generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## License
+코드의 주요 부분은 Apache v2.0 라이센스를 따르며, 주요 라이선스는 [여기](https://github.com/jinhee-han/employ24/edit/master/)를 참조
 
-## Available Scripts
+## Introduction
+BlocklyCode는 Blockly를 기반으로 코드를 생성하는 프로그램입니다. 블록들을 배치하여 로직을 구성하면, 이에 해당하는 자바스크립트와 파이썬을 생성합니다.
 
-In the project directory, you can run:
+## Getting Started Guide
+### 1단계: 요구사항 확인
+React와 npm을 사용합니다. React의 기본 주소인 http://localhost:3000/ 에서 실행됩니다.
 
-### `npm start`
+### 2단계: 설치 및 실행
+    npm start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 3단계: 사용법
+1. 좌측의 탭을 열어 사용할 블록을 고른 후, 해당 블록을 드래그 앤 드랍으로 워크스페이스에 가져옵니다.
+2. 원하는 로직이 구성되었다면, 워크스페이스에 커서를 둔 상태에서 Ctrl+S로 코드를 생성합니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## USECASE
+조건문과 반복문을 사용하여 로직을 구성하고, 이에 대한 자바스크립트와 파이썬을 생성하는 예시입니다.
 
-### `npm test`
+![샘플 이미지](/public/sample.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Folder Structure and Componet
+BlocklyJS의 폴더 구조는 아래와 같습니다.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Community
+BlocklyJS 개발을 위한 커뮤니티 공간은 [dna-platform.com](https://dna-platform.com)으로 이동하기 바랍니다.
