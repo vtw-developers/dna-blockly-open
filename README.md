@@ -11,6 +11,7 @@ BlocklyCode는 Blockly를 기반으로 코드를 생성하는 프로그램입니
 React와 npm을 사용합니다. React의 기본 주소인 http://localhost:3000/ 에서 실행됩니다.
 
 ### 2단계: 설치 및 실행
+    npm install -save react-scripts
     npm start
 
 ### 3단계: 사용법
