@@ -3,20 +3,11 @@
   width: 100%;
 }
 
-.container {
-  margin: 2%;
-  width: 96%;
-  height: 500px;
-  display: flex;
-  justify-content: space-between;
-}
-
 .generator {
   overflow: auto;
   white-space: nowrap;
   border: 1px solid #ddd;
   height: 450px;
-  width: 49%;
   padding: 15px;
 }
 

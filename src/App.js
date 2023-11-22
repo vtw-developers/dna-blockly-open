@@ -2,12 +2,10 @@ import './App.css';
 import React, { useEffect, useState } from 'react';
 import Blockly from 'blockly';
 import { javascriptGenerator } from 'blockly/javascript';
-import { pythonGenerator } from 'blockly/python';
 
 function App() {
     let workspace;
     const [code, setCode] = useState('');
-    const [codePython, setCodePython] = useState('');
 
     useEffect(() => {
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -27,7 +25,6 @@ function App() {
 
     const createCode = () => {
         setCode(javascriptGenerator.workspaceToCode(workspace));
-        setCodePython(pythonGenerator.workspaceToCode(workspace));
     };
 
     const keyDownEvent = (e) => {
@@ -337,15 +334,9 @@ function App() {
     return (
         <div id='scroll'>
             <div id='blocklyDiv' onKeyDown={keyDownEvent} />
-            <div className='container'>
-                <div className='generator'>
-                    <div className='title'>Javascript</div>
-                    <pre>{code}</pre>
-                </div>
-                <div className='generator'>
-                    <div className='title'>Python</div>
-                    <pre>{codePython}</pre>
-                </div>
+            <div className='generator'>
+                <div className='title'>Javascript</div>
+                <pre>{code}</pre>
             </div>
         </div>
     );
