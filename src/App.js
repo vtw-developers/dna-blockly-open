@@ -1,7 +1,7 @@
 import './App.css';
 import React, { useEffect, useState } from 'react';
 import Blockly from 'blockly';
-import { javascriptGenerator } from 'blockly/javascript';
+import { pythonGenerator } from 'blockly/python';
 
 function App() {
     let workspace;
@@ -24,7 +24,7 @@ function App() {
     }, []);
 
     const createCode = () => {
-        setCode(javascriptGenerator.workspaceToCode(workspace));
+        setCode(pythonGenerator.workspaceToCode(workspace));
     };
 
     const keyDownEvent = (e) => {
@@ -335,7 +335,7 @@ function App() {
         <div id='scroll'>
             <div id='blocklyDiv' onKeyDown={keyDownEvent} />
             <div className='generator'>
-                <div className='title'>Javascript</div>
+                <div className='title'>Python</div>
                 <pre>{code}</pre>
             </div>
         </div>
