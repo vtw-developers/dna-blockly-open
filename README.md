@@ -1,4 +1,4 @@
-# BlocklyCode : Blocky-based JavaScript generator
+# BlocklyCode : Blocky-based Python generator
 
 ## License
 코드의 주요 부분은 Apache v2.0 라이센스를 따르며, 주요 라이선스는 [여기](LICENSE)를 참조
